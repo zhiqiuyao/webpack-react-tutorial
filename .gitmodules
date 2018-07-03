@@ -1,0 +1,6 @@
+[submodule "packages/erp-comps-react-mobx"]
+	path = packages/erp-comps-react-mobx
+	url = ssh://g@gitlab.baidu.com:8022/be-fe/erp-comps-react-mobx.git
+[submodule "packages/befe-utils"]
+	path = packages/befe-utils
+	url = ssh://g@gitlab.baidu.com:8022/be-fe/befe-utils.git

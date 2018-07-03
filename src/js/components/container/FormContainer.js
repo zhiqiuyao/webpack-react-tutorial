@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Input from "../presentational/Input";
+import Button from "@befe/erp-comps/v2/components/Button";
 class FormContainer extends Component {
   constructor() {
     super();
@@ -24,11 +25,12 @@ class FormContainer extends Component {
           value={seo_title}
           handleChange={this.handleChange}
         />
+        <Button>Hello</Button>
       </form>
     );
   }
 }
 export default FormContainer;
 
-const wrapper = document.getElementById("create-article-form");
+const wrapper = document.getElementById("root");
 wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
